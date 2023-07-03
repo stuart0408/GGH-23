@@ -1,0 +1,15 @@
+Here is the data encryption and decryption process when a user starts a payment from GPay until the payment is processed, according to the hierarchy of the processes:
+
+1. The user enters their payment information into the VPay app. This information includes the amount of the payment, the recipient's information, and the user's payment 
+   method.
+2. The VPay app first encrypts the payment information using RSA encryption. The public key of the recipient's bank is used to encrypt the data. This ensures that the 
+   payment information is protected from unauthorized parties while it is in transit.
+3. The encrypted payment information is then sent to the recipient's bank.
+4. The recipient's bank decrypts the data using its private key. This allows the bank to process the payment.
+5. The recipient's bank then authenticates the user by requesting their UPI PIN. The UPI PIN is a four-digit number that is used to verify the user's identity.
+6. The user enters their UPI PIN into the VPay app. The app then sends the UPI PIN to the recipient's bank.
+7. The recipient's bank compares the UPI PIN entered by the user to the UPI PIN stored in its records. If the PINs match, the bank then processes the payment.
+
+Here, the UPI PIN acts as a second layer of security in the encryption and decryption process of user data in VPay. The UPI PIN helps to prevent unauthorized parties from making payments using the user's UPI ID.
+
+This is just a simplified overview of the data encryption and decryption process. There are many other steps involved in processing a payment, and the specific steps may vary depending on the payment method and the banks involved.
