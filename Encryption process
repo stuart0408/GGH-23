@@ -10,6 +10,8 @@ Here is the data encryption and decryption process when a user starts a payment 
 6. The user enters their UPI PIN into the VPay app. The app then sends the UPI PIN to the recipient's bank.
 7. The recipient's bank compares the UPI PIN entered by the user to the UPI PIN stored in its records. If the PINs match, the bank then processes the payment.
 
-Here, the UPI PIN acts as a second layer of security in the encryption and decryption process of user data in VPay. The UPI PIN helps to prevent unauthorized parties from making payments using the user's UPI ID.
+Here, the UPI PIN acts as a second layer of security in the encryption and decryption process of user data in VPay. The UPI PIN helps to prevent unauthorized parties from
+making payments using the user's UPI ID.
 
-This is just a simplified overview of the data encryption and decryption process. There are many other steps involved in processing a payment, and the specific steps may vary depending on the payment method and the banks involved.
+This is just a simplified overview of the data encryption and decryption process. There are many other steps involved in processing a payment, and the specific steps may
+vary depending on the payment method and the banks involved.
