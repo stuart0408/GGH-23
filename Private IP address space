@@ -1,0 +1,21 @@
+Here is a more detailed explanation of the role of a private IP address space in the context of securing a fintech app:
+
+What is a private IP address space?
+A private IP address space is a range of IP addresses that are not routable on the public internet. This means that they can only be accessed from within the private network. Private IP addresses are used to protect the privacy of devices on the private network and to prevent unauthorized access to the network.
+
+How does a private IP address space help to secure a fintech app?
+By using private IP addresses for the application server, we can ensure that the application server is not directly exposed to the internet. This makes it more difficult for attackers to find and target the application server. Additionally, if an attacker is able to gain access to the private network, they will only be able to access the application server if they know the private IP address of the server.
+
+How can we choose a private IP address space for a fintech app?
+When choosing a private IP address space for a fintech app, we should consider the following factors:
+* The size of your network.
+* The number of devices that will be connected to the network.
+* The types of devices that will be connected to the network.
+* The security requirements of your network.
+
+How can we configure a firewall to use a private IP address space?
+The specific steps for configuring your firewall to use a private IP address space vary depending on the firewall that we are using. However, the general steps involved are as follows:
+
+1. Identify the private IP address space that we will be using for our network.
+2. Configure the firewall to allow only traffic from the private IP address space to reach the application server.
+3. Configure the firewall to deny all other traffic to the application server.
