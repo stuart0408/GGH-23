@@ -1,0 +1,14 @@
+adding a reverse proxy at the application tier just before the database tier can help in data security of a fintech app in a few ways:
+
+- Increased security: A reverse proxy can help to increase the security of a fintech app by acting as a firewall between the app and the database. This can help to protect 
+                    the database from unauthorized access and attacks.
+- Improved performance: A reverse proxy can also help to improve the performance of a fintech app by caching frequently accessed pages and resources. This can help to 
+                        reduce the load on the database and improve the overall performance of the app.
+- Centralized logging: A reverse proxy can also help to centralize logging for a fintech app. This can make it easier to troubleshoot problems and identify security threats.
+- Load balancing: A reverse proxy can also help to load balance a fintech app. This can help to improve the performance of the app by distributing 
+                  traffic across multiple servers.
+
+Here are some specific examples of how a reverse proxy can help to improve data security in a fintech app:
+- A reverse proxy can be used to filter traffic based on IP addresses or user agents. This can help to prevent unauthorized access to the database.
+- A reverse proxy can be used to encrypt traffic between the app and the database. This can help to protect the data from being intercepted by unauthorized parties.
+- A reverse proxy can be used to enforce security policies, such as requiring users to authenticate before they can access the database.
