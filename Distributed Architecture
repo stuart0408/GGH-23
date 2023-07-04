@@ -1,0 +1,22 @@
+A distributed database architecture is a way of storing data across multiple servers. This makes it more difficult for attackers to take down the entire database, as they 
+would need to compromise all of the servers.
+
+Here are some of the benefits of using a distributed database architecture in a fintech app:
+
+Increased reliability: A distributed database is more reliable than a centralized database because it is less likely to be affected by a single point of failure. If one 
+                       server goes down, the other servers can still access the data.
+Increased scalability: A distributed database can be scaled more easily than a centralized database. As the app grows, you can add more servers to the database without 
+                       having to redesign the app.
+Improved performance:  A distributed database can improve the performance of the app by distributing the load across multiple servers. This can be especially helpful for 
+                       apps that handle a lot of traffic.
+
+
+Here are some specific examples of how a distributed database architecture can be used in a fintech app:
+
+Storing user data:       User data, such as account information and transaction history, can be stored in a distributed database. This would make it more difficult for 
+                         attackers to steal all of the user data if they were able to compromise one server.
+Processing transactions: Transactions, such as payments and transfers, can be processed in a distributed database. This would improve the performance of the app by 
+                         distributing the load across multiple servers.
+Storing logs:            Logs, such as error logs and access logs, can be stored in a distributed database. This would make it easier to troubleshoot problems and to 
+                         identify security threats.
+By using a distributed database architecture, you can help to make your fintech app more reliable, scalable, and performant.
