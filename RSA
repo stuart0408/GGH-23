@@ -18,23 +18,27 @@ Hashing:               This type of encryption does not actually encrypt the dat
                        verify the integrity of the data, but it cannot be used to decrypt the data. 
                        Some examples of hashing algorithms include MD5, SHA-1, and SHA-256.
 
-
 The Rivest–Shamir–Adleman (RSA) algorithm can be used as the best asymmetric data encryption technique for best security to a fintech app. RSA is a public-key cryptosystem that is widely used for secure data transmission and digital signatures. It is considered to be one of the most secure asymmetric encryption algorithms available.
+
 
 Here are some of the reasons why RSA can be preferred for fintech apps:
 
 High level of security: RSA is a very secure algorithm that has been used for many years. It is resistant to a variety of attack methods, including brute-force attacks 
                         and quantum computing attacks.
-Widely supported: RSA is a well-known and widely supported algorithm. This means that there are many implementations of RSA available, which makes it easy to integrate 
-                  into fintech apps.
-Performance: RSA is a relatively efficient algorithm, which means that it can be used to encrypt and decrypt data quickly. This is important for fintech apps, which often 
-             need to process large amounts of data.
+Widely supported:       RSA is a well-known and widely supported algorithm. This means that there are many implementations of RSA available, which makes it easy to 
+                        integrate into fintech apps.
+Performance:            RSA is a relatively efficient algorithm, which means that it can be used to encrypt and decrypt data quickly. This is important for fintech apps, 
+                        which often need to process large amounts of data.
+
 Of course, no encryption algorithm is perfect. RSA is not immune to attack, and it is important to use it properly to ensure security. However, I believe that RSA is the best asymmetric encryption algorithm available for fintech apps.
+
 
 Here are some additional considerations when choosing an asymmetric encryption algorithm for a fintech app:
 
 The level of security required: The level of security required will depend on the sensitivity of the data that is being protected. For example, if the system is handling 
                                 sensitive financial data, then a high level of security will be required.
-The performance requirements: The performance requirements will depend on the specific needs of the system. For example, if the system needs to be able to encrypt and 
-                              decrypt data quickly, then a symmetric encryption algorithm may be a good option.
-The cost: The cost of the encryption technique will also need to be considered. Some encryption algorithms are more expensive than others.
+
+The performance requirements:   The performance requirements will depend on the specific needs of the system. For example, if the system needs to be able to encrypt and 
+                                decrypt data quickly, then a symmetric encryption algorithm may be a good option.
+
+The cost:                       The cost of the encryption technique will also need to be considered. Some encryption algorithms are more expensive than others.
