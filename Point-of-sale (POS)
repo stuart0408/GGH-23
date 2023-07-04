@@ -1,0 +1,25 @@
+The POS terminal is the physical device that the merchant uses to process payments. It is typically a touchscreen device that allows the merchant to enter the customer's 
+payment information. The POS terminal then communicates with the payment processing app to initiate the payment.
+
+Once the payment is initiated, the POS terminal will send the customer's payment information to the payment processing app. The payment processing app will then verify the 
+customer's payment information and authorize the payment. If the payment is authorized, the payment processing app will send a message to the POS terminal to indicate that 
+the payment has been successful.
+
+The POS terminal will then display a message to the customer indicating that the payment has been successful. The POS terminal will also print a receipt for the customer.
+
+The role of the POS terminal in a fintech app is to provide a secure and convenient way for merchants to process payments. The POS terminal helps to protect the customer's 
+payment information by encrypting the information before it is transmitted to the payment processing app. The POS terminal also helps to verify the customer's payment 
+information to ensure that the payment is authorized.
+
+Here are some specific examples of how the POS terminal interacts with the payment processing app:
+
+Encryption:    The POS terminal will encrypt the customer's payment information before it is transmitted to the payment processing app. This helps to protect the 
+               information from being intercepted by unauthorized parties.
+Verification:  The payment processing app will verify the customer's payment information to ensure that the payment is authorized. This helps to protect the merchant from 
+               fraudulent payments.
+Authorization: Once the customer's payment information has been verified, the payment processing app will authorize the payment. This means that the merchant will be able 
+               to collect the payment from the customer.
+Receipt:       The POS terminal will print a receipt for the customer. This receipt will include the amount of the payment, the date and time of the payment, and the 
+               merchant's information.
+
+By interacting with the payment processing app in these ways, the POS terminal helps to ensure that payments are processed securely and conveniently.
