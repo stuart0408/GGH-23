@@ -1,0 +1,25 @@
+Redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability. In the context of fintech apps, redundancy can 
+be used to help ensure that the app remains available even if one or more components fail.
+
+There are two main types of redundancy: active and passive. Active redundancy involves having two or more identical components that are both operational at the same time. 
+If one of the components fails, the other component can take over its function. Passive redundancy involves having one or more spare components that are not operational 
+until they are needed. If one of the components fails, the spare component can be brought online to replace it.
+
+There are a number of ways that redundancy can be used to deal with failover in fintech apps. For example, you could:
+
+Use redundant servers:    This means having two or more servers that are running the same application. If one server fails, the other server can take over.
+Use redundant databases:  This means having two or more databases that store the same data. If one database fails, the other database can still be accessed.
+Use redundant networking: This means having two or more network connections that are used to connect to the app. If one network connection fails, the other network 
+                          connection can still be used.
+By using redundancy, you can help to ensure that your fintech app remains available even if one or more components fail. This can help to protect your users from 
+inconvenience and financial loss.
+
+Here are some additional considerations for using redundancy in fintech apps:
+
+The cost of redundancy:       Redundancy can add to the cost of developing and maintaining a fintech app. However, the cost of redundancy is often outweighed by the 
+                              benefits of ensuring that the app remains available.
+The complexity of redundancy: Redundancy can add to the complexity of a fintech app. It is important to carefully design the redundancy so that it does not introduce new 
+                              vulnerabilities.
+The importance of testing:    It is important to test the redundancy of a fintech app to ensure that it works as expected. This testing should be done regularly to ensure 
+                              that the redundancy remains effective.
+By following these considerations, you can help to ensure that the redundancy in your fintech app is effective and does not introduce new vulnerabilities.
